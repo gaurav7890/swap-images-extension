@@ -8,7 +8,6 @@ const replace = () => {
   for (divElem of allDivs) {
     if (divElem.style.backgroundImage && !avatarClassNames.includes(divElem.className)) {
       let r = 1 + Math.floor(Math.random() * totalImages);
-      console.log(r);
       let file = `images/${r}.jpg`;
       let url = chrome.extension.getURL(file);
       divElem.style.backgroundImage = `url("${url}")`;

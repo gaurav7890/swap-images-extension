@@ -1,8 +1,8 @@
 {
   "manifest_version" : 2,
-  "name" : "background-image Swapper",
+  "name" : "CSATS: background-image Swapper",
   "version" : "0.1",
-  "description": "Replace all background-images with turtles on click.",
+  "description": "CSATS: Replace all background-images with turtles on click.",
   "web_accessible_resources" : [
     "images/*.jpg"
   ],

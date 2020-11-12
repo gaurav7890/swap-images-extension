@@ -1,4 +1,4 @@
-# swap-background-images-extension
+# CSATS: swap-background-images-extension
 This chrome extension swaps background-images on click throughout the webpage as long as their classes are not 'avatar'.
 
 # Steps
